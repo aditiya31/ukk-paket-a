@@ -59,6 +59,8 @@ Route::prefix('admin')->group(function () {
 
     Route::middleware(['isPetugas'])->group(function () {
         Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard.index');
+        Route::get('laporan/cetak/', [DashboardController::class, 'cetakLaporan'])->name('dashboard.cetakLaporan');
+
 
         Route::resource('pengaduan', PengaduanController::class);
 

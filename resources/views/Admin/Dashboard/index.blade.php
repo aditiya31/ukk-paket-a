@@ -84,6 +84,9 @@
             <div class="card">
                 <div class="card-header">
                     <h4>Data Belum diproses</h4>
+                    <div class="float-right">
+                        <a href="{{ route('dashboard.cetakLaporan', ['data_pending' => $pending]) }}" class="btn btn-danger">EXPORT PDF</a>
+                    </div>
                 </div>
                 <div class="card-body">
                 <table class="table">
@@ -118,6 +121,9 @@
             <div class="card">
                 <div class="card-header">
                     <h4>Data Proses</h4>
+                    <div class="float-right">
+                        <a href="{{ route('dashboard.cetakLaporan', ['data_pending' => $pending]) }}" class="btn btn-danger">EXPORT PDF</a>
+                    </div>
                 </div>
                 <div class="card-body">
                 <table class="table">
@@ -152,6 +158,9 @@
         <div class="card">
                 <div class="card-header">
                     <h4>Data Selesai</h4>
+                    <div class="float-right">
+                        <a href="{{ route('dashboard.cetakLaporan', ['data_pending' => $pending]) }}" class="btn btn-danger">EXPORT PDF</a>
+                    </div>
                 </div>
                 <div class="card-body">
                 <table class="table">
@@ -189,7 +198,7 @@
             var selesai = $('#selesai');
             if (selesai.hasClass('d-none')) {
                 selesai.removeClass('d-none');
-                $(this).text('Sembunyikan')   
+                $(this).text('Tutup')   
             }else{
                 selesai.addClass('d-none');
                 $(this).text('Lihat Data')   
@@ -199,7 +208,7 @@
             var proses = $('#proses');
             if (proses.hasClass('d-none')) {
                 proses.removeClass('d-none');
-                $(this).text('Sembunyikan')   
+                $(this).text('Tutup')   
             }else{
                 proses.addClass('d-none');
                 $(this).text('Lihat Data')   
@@ -209,7 +218,7 @@
             var pending = $('#pending');
             if (pending.hasClass('d-none')) {
                 pending.removeClass('d-none');
-                $(this).text('Sembunyikan')   
+                $(this).text('Tutup')   
             }else{
                 pending.addClass('d-none');
                 $(this).text('Lihat Data')   
