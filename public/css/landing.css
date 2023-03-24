@@ -1,0 +1,260 @@
+body {
+    font-family: "Poppins";
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    border: 1px solid #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 0;
+    background: #eeeeee;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background: #b0b0b0;
+}
+
+
+.notification {
+    padding: 14px;
+    text-align: center;
+    background: #f4b704;
+    color: #fff;
+    font-weight: 300;
+}
+
+.btn-white {
+    background: #fff;
+    color: #000;
+    text-transform: uppercase;
+    padding: 0px 25px 0px 25px;
+    font-size: 14px;
+}
+
+.btn-facebook {
+    background: #15548F;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn-facebook:hover {
+    background: #15548F;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn-google {
+    background: #cf4332;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn-google:hover {
+    background: #cf4332;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 430px;
+    background: linear-gradient(#15548F, #00a7fb);
+    overflow: hidden;
+}
+
+@-webkit-keyframes animate {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: 1000px;
+    }
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: 1000px;
+    }
+}
+
+@-webkit-keyframes animate2 {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: -1000px;
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: -1000px;
+    }
+}
+
+.italic {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.medium {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.semi-bold {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.navbar .container-fluid #navbarNav .navbar-nav .nav-item .btn-purple {
+    border: 1px solid #fff;
+    background: #fff;
+    color: #15548F !important;
+    width: 100%;
+}
+
+.navbar .container-fluid #navbarNav .navbar-nav .nav-item .btn-outline-purple {
+    color: #fff;
+    border: 1px solid #fff;
+    width: 100%;
+}
+
+.navbar .container-fluid #navbarNav .navbar-nav .nav-item .btn-outline-purple:hover {
+    color: #15548F;
+    border: 1px solid #fff;
+    background: #fff;
+}
+
+.text-center h2 {
+    font-size: 26px;
+}
+
+.text-center p {
+    font-size: 16px;
+}
+
+.row .col {
+    z-index: 1001;
+}
+
+@media screen and (max-width: 576px) {
+    .row .col .content-top {
+        padding: 32px 20px 32px 20px;
+        background: #fff;
+        margin-top: -160px;
+        border-color: #15548F;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .row .col .content-top {
+        padding: 32px 20px 32px 20px;
+        background: #fff;
+        margin-top: -160px;
+        border-color: #15548F;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .row .col .content-top {
+        padding: 32px 20px 32px 20px;
+        background: #fff;
+        margin-top: -160px;
+        border-color: #15548F;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .row .col .content-bottom {
+        margin-top: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .row .col .content-bottom {
+        margin-top: 32px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .row .col .content-bottom {
+        margin-top: 32px;
+    }
+}
+
+.row .col .content {
+    padding: 32px 20px 32px 20px;
+    background: #fff;
+    border-color: #15548F;
+}
+
+@media screen and (min-width: 992px) {
+    .row .col .content {
+        padding: 32px 20px 32px 20px;
+        background: #fff;
+        margin-top: -160px;
+        border-color: #15548F;
+    }
+}
+
+.row .col .content .card {
+    background: #00305c;
+    padding: 16px;
+    color: #fff;
+}
+
+.row .col .content .btn-custom {
+    background: #00305c;
+    color: #fff;
+    width: 100%;
+}
+
+.pengaduan .bg-purple {
+    background: linear-gradient(#00a7fb, #15548F);
+    width: 100%;
+    padding: 26px;
+}
+
+.modal .modal-dialog .modal-content .modal-body h3 {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.modal .modal-dialog .modal-content .modal-body p {
+    font-weight: 300;
+    font-size: 16px;
+    color: #707070;
+}
+
+.modal .modal-dialog .modal-content .modal-body .btn-purple {
+    border: 1px solid #15548F;
+    background: #15548F;
+    color: #fff;
+    width: 100%;
+}
+
+.topbar-divider {
+    width: 0;
+    border-right: 1px solid #e3e6f0;
+    height: 80px
+}
